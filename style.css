@@ -1,0 +1,113 @@
+/* Variabel CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+:root {
+  --primary-color: #28cb8b;
+  --secondary-color: #26323b;
+  --info-color: #2194f3;
+  /* Neutrals */
+  --neutral-black: #263238;
+  --neutral-white: #ffffff;
+  --neutral-silver: #f5f7fa;
+  --neutral-greyblue: #abbed1;
+  --neutral-light-grey: #89939e;
+  --neutral-grey: #717171;
+  --neutral-dark-grey: #4d4d4d;
+  /* Primary Shades */
+  --primary-s1: #43a046;
+  --primary-s2: #388e3b;
+  --primary-s3: #237d31;
+  --primary-s4: #1b5e1f;
+  --primary-s5: #103e13;
+  /* Color Tint */
+  --tint1: #66bb69;
+  --tint2: #81c784;
+  --tint3: #a5d6a7;
+  --tint4: #c8e6c9;
+  --tint5: #e8f5e9;
+  /* Action Colors */
+  --warning: #fbc02d;
+  --error: #e53835;
+  --success: #2e7d31;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.btn-custom {
+  background-color: var(--primary-s1);
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: var(--tint3);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar a {
+  transition: 0.15s;
+}
+
+.navbar a:hover {
+  color: var(--font-color-secondary);
+  font-weight: bold;
+}
+
+.hero_section {
+  background-color: var(--neutral-silver);
+  color: var(--font-color-primary);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero_section h1 {
+  color: var(--font-color-secondary);
+}
+
+.page_section {
+  min-height: 100vh;
+}
+
+.section_padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+/* .lead {
+  font-weight: 400;
+} */
+
+.fade-in {
+  /* opacity: 0; */
+  transform: translateY(30px);
+  transition: all 0.6s ease-in;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 3rem;
+  color: white;
+}
