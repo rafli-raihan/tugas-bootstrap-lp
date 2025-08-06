@@ -110,3 +110,29 @@ body {
   font-weight: bold;
   color: var(--tint2);
 }
+
+@media (min-width: 768px) {
+  .pricing_h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pricing_h1 {
+    font-size: 6rem;
+  }
+}
+
+footer {
+  background-color: var(--neutral-black);
+  color: var(--neutral-white);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--neutral-white);
+}
+
+footer a:hover {
+  color: var(--neutral-light-grey);
+}
