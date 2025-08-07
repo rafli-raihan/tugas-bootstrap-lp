@@ -38,6 +38,10 @@ body {
   scroll-behavior: smooth;
 }
 
+header {
+  background-color: var(--neutral-white);
+}
+
 .btn-custom {
   background-color: var(--primary-s1);
   color: white;
@@ -64,7 +68,7 @@ body {
 .hero_section {
   background-color: var(--neutral-silver);
   color: var(--neutral-black);
-  min-height: 100vh;
+  min-height: 60vh;
   min-width: 100vw;
   display: flex;
   align-items: center;
@@ -77,10 +81,6 @@ body {
   right: 0;
 }
 
-.page_section {
-  min-height: 100vh;
-}
-
 .section_padding {
   padding: 80px 0;
 }
@@ -90,12 +90,7 @@ body {
   margin-bottom: 80px;
 }
 
-/* .lead {
-  font-weight: 400;
-} */
-
 .fade-in {
-  /* opacity: 0; */
   transform: translateY(30px);
   transition: all 0.6s ease-in;
 }
