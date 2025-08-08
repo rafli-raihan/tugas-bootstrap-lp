@@ -76,9 +76,28 @@ header {
 
 .carousel-idc-div {
   position: absolute;
-  bottom: 0;
+  bottom: -125px;
   left: 0;
   right: 0;
+}
+
+@media (max-width: 800px) {
+  .carousel-idc-div {
+    bottom: -5px;
+  }
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background-color: var(--primary-s1);
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+  height: 10px;
+  width: 10px;
 }
 
 .section_padding {
